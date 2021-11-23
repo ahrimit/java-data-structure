@@ -1,1 +1,1 @@
-# java-data-structure
+# java-design-pattern
