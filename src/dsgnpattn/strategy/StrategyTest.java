@@ -2,14 +2,14 @@ package dsgnpattn.strategy;
 
 import org.junit.Test;
 
-import dsgnpattn.cmm.TestCmm;
+import dsgnpattn.cmm.TestBase;
 import dsgnpattn.strategy.example.Dog;
 import dsgnpattn.strategy.example.FlyingStrategy;
 import dsgnpattn.strategy.example.Parrot;
 import dsgnpattn.strategy.example.Pet;
 import dsgnpattn.strategy.example.WalkingStrategy;
 
-public class StrategyTest extends TestCmm {
+public class StrategyTest extends TestBase {
 
 	@Test
 	public void testStrategyExample() {

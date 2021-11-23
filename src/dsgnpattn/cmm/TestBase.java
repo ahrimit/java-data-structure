@@ -4,7 +4,7 @@ import org.junit.Before;
 import org.junit.Rule;
 import org.junit.rules.TestName;
 
-public class TestCmm {
+public class TestBase {
 	
 	@Rule
 	public final TestName name = new TestName();

@@ -3,12 +3,12 @@ package dsgnpattn.singleton;
 import org.junit.After;
 import org.junit.Test;
 
-import dsgnpattn.cmm.TestCmm;
+import dsgnpattn.cmm.TestBase;
 import dsgnpattn.singleton.example.Printer;
 import dsgnpattn.singleton.example.PrinterStatic;
 import dsgnpattn.singleton.example.PrinterSync;
 
-public class SingltonTest extends TestCmm {
+public class SingltonTest extends TestBase {
 
 	private static final int THREAD_NUM = 5;
 
