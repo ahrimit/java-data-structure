@@ -8,7 +8,7 @@ import dsgnpattn.state.example.Light;
 public class StateTest extends TestBase{
 
 	@Test
-	public void testLight() {
+	public void testExample() {
 		Light light = new Light();  //off
 		light.offButtonPushed(); 	//off
 		light.onButtonPushed();		//on
