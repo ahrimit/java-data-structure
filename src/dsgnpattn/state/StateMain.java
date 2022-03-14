@@ -1,14 +1,10 @@
 package dsgnpattn.state;
 
-import org.junit.Test;
-
-import dsgnpattn.cmm.TestBase;
 import dsgnpattn.state.example.Light;
 
-public class StateTest extends TestBase{
+public class StateMain {
 
-	@Test
-	public void testExample() {
+	public static void main(String[] args) {
 		Light light = new Light();  //off
 		light.offButtonPushed(); 	//off
 		light.onButtonPushed();		//on

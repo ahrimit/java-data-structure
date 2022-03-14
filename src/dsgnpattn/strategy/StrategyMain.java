@@ -1,18 +1,14 @@
 package dsgnpattn.strategy;
 
-import org.junit.Test;
-
-import dsgnpattn.cmm.TestBase;
 import dsgnpattn.strategy.example.Dog;
 import dsgnpattn.strategy.example.FlyingStrategy;
 import dsgnpattn.strategy.example.Parrot;
 import dsgnpattn.strategy.example.Pet;
 import dsgnpattn.strategy.example.WalkingStrategy;
 
-public class StrategyTest extends TestBase {
+public class StrategyMain {
 
-	@Test
-	public void testStrategyExample() {
+	public static void main(String[] args) {
 		Pet parrot = new Parrot("parrot");
 		parrot.setMovingStrategy(new FlyingStrategy());
 		Pet dog = new Dog("dog");

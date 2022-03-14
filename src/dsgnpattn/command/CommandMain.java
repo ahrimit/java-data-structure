@@ -1,18 +1,14 @@
 package dsgnpattn.command;
 
-import org.junit.Test;
-
-import dsgnpattn.cmm.TestBase;
 import dsgnpattn.command.example.Button;
 import dsgnpattn.command.example.Command;
 import dsgnpattn.command.example.Lamp;
 import dsgnpattn.command.example.LampOffCommand;
 import dsgnpattn.command.example.LampOnCommand;
 
-public class CommandTest extends TestBase {
+public class CommandMain {
 
-	@Test
-	public void testExample() {
+	public static void main(String[] args) {
 		Lamp lamp = new Lamp();
 		Command command = new LampOffCommand(lamp);
 		Button button = new Button(command);
@@ -21,4 +17,5 @@ public class CommandTest extends TestBase {
 		button.setTheCommand(new LampOnCommand(lamp));
 		button.pressed();
 	}
+
 }

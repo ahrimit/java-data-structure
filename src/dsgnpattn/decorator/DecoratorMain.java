@@ -1,17 +1,13 @@
 package dsgnpattn.decorator;
 
-import org.junit.Test;
-
-import dsgnpattn.cmm.TestBase;
 import dsgnpattn.decorator.example.Display;
 import dsgnpattn.decorator.example.LaneDecorator;
 import dsgnpattn.decorator.example.RoadDisplay;
 import dsgnpattn.decorator.example.TrafficDecorator;
 
-public class DecoratorTest extends TestBase{
+public class DecoratorMain {
 
-	@Test
-	public void test_example() {
+	public static void main(String[] args) {
 		Display road = new RoadDisplay();
 		road.draw();
 		System.out.println("---------------------------");
@@ -23,5 +19,7 @@ public class DecoratorTest extends TestBase{
 		Display roadWithTraffic = new TrafficDecorator(road);
 		roadWithTraffic.draw();
 		System.out.println("---------------------------");
+		
 	}
+
 }
